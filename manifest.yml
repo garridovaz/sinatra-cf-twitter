@@ -1,0 +1,12 @@
+---
+applications:
+- name: whofollows-fgv
+  memory: 128M
+  instances: 2
+  services:
+  - whofollows-redis
+  env:
+    TW_CONSUMER_KEY: T2OBRCaNzOd2R2d8iWZ2jRiCH
+    TW_CONSUMER_SECRET: P1a8fCsVFZRg3XdhJtOprWDZXusbXjJmebAUoLAO4jfglkgKp5
+    TW_ACCESS_TOKEN: 1002041-FGYjmblWhnc1MFDV8bJByrM2WIZKMQcr8XSBFU75Vq
+    TW_ACCESS_TOKEN_SECRET: tUoK2yRERn9TwCzIT6fOH1f3qNAvKd8IhhWmDdI5Utadp
